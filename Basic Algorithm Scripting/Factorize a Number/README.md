@@ -10,7 +10,7 @@ For example:
 ```
 5! = 1 * 2 * 3 * 4 * 5 = 120
 ```
-## Test Parameters:
+## Tests:
 
     factorialize(5) should return a number.
     factorialize(5) should return 120.

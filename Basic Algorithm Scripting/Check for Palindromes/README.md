@@ -7,7 +7,7 @@ A palindrome is a word or sentence that's spelled the same way both forward and 
 Note:
 You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything lower case in order to check for palindromes.
 
-## Test Parameters
+## Tests:
 
     palindrome("eye") should return a boolean.
     palindrome("eye") should return true.
