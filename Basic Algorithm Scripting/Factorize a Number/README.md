@@ -18,7 +18,7 @@ For example:
     factorialize(20) should return 2432902008176640000.
     factorialize(0) should return 1.
 
-## Solution:
+## Solution 1 For Loop:
 
 ```javascript
 function factorialize(num) {
@@ -30,4 +30,21 @@ function factorialize(num) {
   }
   return num;
 }
+```    
+
+## Solution 2 While Loop:
+
+```javascript
+function factorialize(num) {
+  var result = num;
+
+  if ( num === 0 || num === 1) {
+  return 1; 
+
+  while(num > 1)  {
+    num--;
+    result = result * num;
+  }
+  return result;
+}  
 ```    
